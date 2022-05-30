@@ -10,7 +10,7 @@ The code is divided into modules and each module is saved in a separate file in 
 
 [link to live demo](https://favourezeugwa.github.io/Awesome-Books-ES6/)
 
-> Awesome-Books-ES6: Refractor to use JavaScript modules and ES6 Syntax
+> Awesome-Books-ES6: Refractor to use JavaScript modules and ES6 Syntax.
 
 ## Built With
 
