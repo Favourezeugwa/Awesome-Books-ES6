@@ -10,7 +10,7 @@ The code is divided into modules and each module is saved in a separate file in 
 
 [link to live demo]
 
-> BookList App: Refractor to use JavaScript modules and ES6 Syntax
+> Awesome-Books-ES6: Refractor to use JavaScript modules and ES6 Syntax
 
 ## Built With
 
@@ -24,7 +24,7 @@ The code is divided into modules and each module is saved in a separate file in 
 
 - In the repository, copy the `SSH` code snippet for Awesome-book-2
 - clone into the repository by using `git clone` in the git bash terminal
-- cd into the repository `cd Awesome-Book-ES6`
+- cd into the repository `cd Awesome-Books-ES6`
 - open VScode terminal `code .`
 - Go live (live server)
 
