@@ -6,12 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Favour's awesome books app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
-
-    <script src="./index.js"></script>
+    <main>
+        <nav class="nav-bar">
+            <div class="logo">Awesome Books</div>
+            <ul class="navLinks">
+                <li><a id="nav-List" href="">List</a></li>
+                <li><a id="nav-Add" href="">Add new</a></li>
+                <li><a id="nav-Contact" href="">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="time"></div>
+        <section class="book-list-section">
+            <h2>My Awesome books</h2>
+            <div class="book-list">
+            </div>
+        </section>
+        <hr class="separator-line">
+        <section class="form-section">
+            <h2>Add a new book</h2>
+            <form action="#" class="add-form">
+                <input type="text" name="title" id="title" placeholder="Book Title" required><br>
+                <input type="text" name="author" id="author" placeholder="Author" required><br>
+                <button type="submit" id="add-btn">Add</button>
+            </form>
+        </section>
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <p>Do you have any questions or you just want to say "Hello"? <br>You can reach out to us ! </p>
+            <ul>
+                <li>Our email:<a href="favourezeugwa@gmail.com"> favourezeugwa@gmail.com</a></li>
+                <li>Our phone number: +234-8065780196</li>
+                <li>Our Address: Ikeja, Lagos state, Nigeria.</li>
+            </ul>
+        </section>
+        <footer>
+            <p>copyright _</p>
+        </footer>
+    </main>
+    <script src="index.js" type="module"></script>
 </body>
 
 </html>

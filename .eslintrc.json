@@ -13,6 +13,7 @@
   "rules": {
     "no-shadow": "off",
     "no-param-reassign": "off",
+    "import/no-mutable-exports": "off",
     "eol-last": "off",
     "import/extensions": [ 1, {
       "js": "always", "json": "always"
@@ -20,6 +21,7 @@
   },
   "ignorePatterns": [
     "dist/",
-    "build/"
+    "build/",
+    "luxon.min.js"
   ]
 }

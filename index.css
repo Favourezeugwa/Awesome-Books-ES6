@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+}
+
+h2 {
+  text-align: center;
+  margin: 50px 0 30px 0;
+  font-size: 30px;
+}
+
+/* nav section */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid #000;
+  margin: 0 15px 10px;
+  padding: 12px 20px;
+}
+
+.navLinks {
+  display: flex;
+  width: 20%;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.navLinks li a {
+  text-decoration: none;
+  color: #000;
+  padding: 12px;
+}
+
+.navLinks li a:hover {
+  color: #fff;
+  background: rgb(233, 114, 144);
+}
+
+#time {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+  padding-right: 20px;
+}
+
+/* book section */
+.book-list-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-list {
+  border: 3px solid #000;
+  margin: 0 15px 20px;
+  width: 98%;
+}
+
+.book-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 20px;
+}
+
+.book-item:nth-child(odd) {
+  background: #f0f0f0;
+}
+
+.delete-btn,
+#add-btn {
+  border: 2px solid #000;
+  box-shadow: 3px 4px 2px #000;
+  background: rgb(233, 114, 144);
+  color: #000;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-family: inherit;
+  width: fit-content;
+}
+
+#add-btn {
+  align-self: flex-end;
+}
+
+.delete-btn:hover,
+#add-btn:hover {
+  color: #fff;
+}
+
+hr {
+  display: none;
+  border: 2px solid #000;
+  width: 150px;
+  margin: 40px auto;
+  border-radius: 15px;
+}
+
+/* form section */
+.form-section {
+  display: none;
+  flex-direction: column;
+}
+
+.add-form {
+  margin: auto;
+  max-width: 450px;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  height: 40px;
+  border: 3px solid #000;
+  font-family: inherit;
+  padding-left: 10px;
+}
+
+/* contact section */
+#contact {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact p {
+  text-align: center;
+  padding: 0 10px;
+}
+
+#contact ul {
+  margin-top: 30px;
+}
+
+#contact ul li a {
+  color: #000;
+}
+
+#contact ul li a:hover {
+  color: rgb(7, 19, 192);
+}
+
+/* footer section */
+footer {
+  border: 3px solid #000;
+  margin: 200px 15px 0;
+  padding: 12px 20px;
+}
