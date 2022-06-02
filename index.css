@@ -149,6 +149,9 @@ input {
 
 /* footer section */
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 98%;
   border: 3px solid #000;
   margin: 200px 15px 0;
   padding: 12px 20px;
